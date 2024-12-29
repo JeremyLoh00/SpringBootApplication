@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cdf8f66b-640a-4c60-8b77-be7a52abee8c)![image](https://github.com/user-attachments/assets/99a9c8e0-dd50-4ff5-bf42-4b2581ddd2a9)# SpringBootApplication
+# SpringBootApplication
 API to manage Customer and Products
 
 This is a Spring Boot application developed as part of a technical assessment. The project demonstrates basic CRUD operations for managing Customers and Poduct according Spring MVC.
