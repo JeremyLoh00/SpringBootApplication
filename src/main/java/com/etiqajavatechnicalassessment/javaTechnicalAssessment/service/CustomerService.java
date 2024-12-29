@@ -15,19 +15,19 @@ public class CustomerService {
     public CustomerService(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
     }
-
+    //Get all data
     public List<Customer> getAllCustomers() {
         return customerRepository.findAll();
     }
-
+    //Get specific data by ID
     public Optional<Customer> getCustomerById(String id) {
         return customerRepository.findById(id);
     }
-
+    //Add new customer
     public Customer createCustomer(Customer customer) {
         return customerRepository.save(customer);
     }
-
+    //Update data
     public Customer updateCustomer(String id, Customer customer) {
         if (customerRepository.existsById(id)) {
             customer.setId(id);
@@ -35,7 +35,7 @@ public class CustomerService {
         }
         return null;
     }
-
+    //Delete data
     public void deleteCustomer(String id) {
         customerRepository.deleteById(id);
     }
