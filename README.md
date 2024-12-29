@@ -11,7 +11,7 @@ This is a Spring Boot application developed as part of a technical assessment. T
 - Eclipse
 
 **Notes**
-- Start the connect of the database in XAMPP before running the application
+- Start the connection of the database in XAMPP before running the application
 - To access Swagger UI 
 http://localhost:8080/swagger-ui/index.html
 
