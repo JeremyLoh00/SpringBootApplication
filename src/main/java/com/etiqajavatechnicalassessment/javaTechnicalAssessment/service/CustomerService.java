@@ -19,7 +19,7 @@ public class CustomerService {
     public List<Customer> getAllCustomers() {
         return customerRepository.findAll();
     }
-    //Get specific data by ID
+    //Get customer data by ID
     public Optional<Customer> getCustomerById(String id) {
         return customerRepository.findById(id);
     }
