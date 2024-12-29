@@ -20,5 +20,4 @@ http://localhost:8080/swagger-ui/index.html
 - [Database Customer Table](https://github.com/user-attachments/assets/e05417cb-5b52-47ca-91e4-24de4c49011c)
 - [Database Product Table](https://github.com/user-attachments/assets/cfd43ccd-fe7c-455f-95e1-42f0bf9d2a38)
 
-**GitHub Action Created for Continuous Integration in this project
-**
+**GitHub Action Created for Continuous Integration in this project**
